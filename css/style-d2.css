@@ -1,0 +1,23 @@
+
+
+body {
+    background-color: #D3AB9E;
+}
+
+.p-inline {
+    border: 1px solid black;
+}
+
+.p-inline a{
+    
+}
+a[href=""] {
+
+    /*  Display Property
+    padding: 2rem;
+    box-sizing: content-box;
+    width: 8rem;
+    background-color: cornflowerblue;
+    border-radius: 1.5rem;
+    border: 2px solid black; */
+}
