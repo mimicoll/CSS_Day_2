@@ -1,154 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta Tags -->
-        <meta charset="UTF-8">
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <meta name='description' content="">
-        <meta name="keywords" content="">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="">
-        <meta property="og:title" content="">
-        <meta property="og:description" content="">
-        <title>Box Property</title>
-        <link rel="stylesheet" href="css/style-d2.css">
-    </head>
-
-    <body>
-        <!-- BOX LAYOUT -->
-
-        <header class="container">
-            <h1>CSS BOX Property</h1>
-        </header>
-        <main class="main-container">
-            <div class="container">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus reiciendis quae numquam. Corrupti, perferendis deleniti. Facilis, cum enim soluta animi nemo omnis quasi eos aspernatur iste quisquam cumque maiores placeat!</p>
-            </div>
-            <button id="btn1">Grand Total</button><br>
-            <button class="btn2 rounded">content button</button>
-            <button class="btn3">border  button</button>
-            <button class="rounded">Rounded Button</button>
-            <button class="circle"></button>  
-
-            <!-- rounding images -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS D2 Activity</title>
+    <link rel="stylesheet" href="style-main.css">
+    
+    <!-- PALETTE -->
+    <!-- https://coolors.co/c8c8c8-b3b3b3-bbb891-dc965a-242325 -->
+</head>
+<body>
+    <header>
+        <h1 class="page-title">CSS BOX MODEL</h1>
+        <nav>
+            <a href="#box-layout" class="nav-items">Box Layout</a>
+            <a href="#link-list" class="nav-items">Link List</a>
+            <a href="#float-layout" class="nav-items">Float Layout</a>
             
-            <img src="./public/img/profile-image.jpg" alt="profile-image" class="profile-img">
-            
-            <div class="card">
-                <div class="rounded-top">
+        </nav>
+    </header>
+    <main>
+        <section id="box-layout">
+            <!-- ROUNDED BUTTON -->
+            <div class="button">
+                <button class="rounded-button">Rounded Button</button>
+            </div> 
 
-                </div>    
-                <div class="bottom-content">
-                    <h3>Welcome Banner</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur .</p>
-                </div>
+            <!-- BORDER BOX -->
+            <div class="border-div">
+                div border
             </div>  
             
-
-
-            <!-- Customizing Link -->
-            <section id="link-custom">
-                <h2>CSS LINK Customization</h2>
-                In today's rapidly evolving <a href="http://www.google.com" target="_blank">digital landscape</a>, the Information Technology (IT) sector plays a pivotal role. It encompasses a diverse range of technologies and practices that drive innovation, efficiency, and connectivity across industries. From <a href="http://www.google.com" target="_blank">software development</a> and network administration to <a href="./css-d2-cybersecurity.html" target="_blank">cybersecurity and data analytics</a>, IT professionals are at the forefront of shaping the technological future.
-                <a href="https://www.example.com/it-careers" target="_blank">Discover exciting IT career opportunities</a>.
-            </section>
-            <!-- Customizing Link -->
-
-
-            <!-- Customizing List -->
-            <section id="list-custom">
-                <h2>CSS LIST Customization</h2>
-                <h2>System Unit Parts</h2>
-                <ol>
-                    <li>Chassis</li>
-                    <li>Motherboard(mobo)</li>
-                    <li>CPU</li>
-                    <li>RAM</li>
-                    <li>Graphics Card(GPU)</li>
-                    <li>Power Suppy(PSU)</li>
-                    <li>Fans</li>
-                    <li>Hard Disk(HDD)</li>
-                    <li>Solid State Disk(SSD)</li>
-                </ol>
-
-                <h2>Important CSS Concepts</h2>
-                <ul>
-                    <div class="flex">
-                        <li>Box Property</li>
-                        <li>Flexbox Layout</li>
-                        <li>Grid Layout</li>
-                    </div>    
-                    
-                </ul>
-
-                <div class="div-stack">
-                    <div>first</div>
-                    <div>second</pd>
-                    <div>third</div>
+            <!-- DIV WITHIN A DIV -->
+            <div class="div-outer">
+                This is inside div
+                <div class="div-middle">
+                    Within a div
+                    <div class="div-inner">
+                        Inner div
+                    </div>
                 </div>
-            </section>
-            
-            <!-- Customizing List -->
+            </div>      
+
+        </section>
 
 
-            <!-- Display Property -->
-            
-            <section id="display-property">
-                <h2>DISPLAY Property</h2>
-                <h3 class="">Inline Header</h3>
-                <p class="">Inline Paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa quae vel dolore nesciunt cupiditate quod at, in quam corporis! At facere expedita qui debitis dignissimos iure hic, suscipit quos!</p>
-                <img width="300" src="https://images.unsplash.com/photo-1691866068948-fd8869ef4094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="test">
-                <img width="300" src="https://images.unsplash.com/photo-1691781644883-46f2826e3c62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="test" class="invisible">
-                <img width="300" src="https://images.unsplash.com/photo-1691782940337-cb3dee4fb453?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="test">
-                
-                <h1 class="headings">Block Title H1</h1>
-                <h2 class="headings">Block Title H2</h2>
-                <h3 class="headings">Block Title H3</h3>
-                <!-- <img width="300" src="https://images.unsplash.com/photo-1691782940337-cb3dee4fb453?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="test"> -->
-                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facilis distinctio rerum assumenda numquam earum quae beatae tempore unde neque vero fuga, veniam maxime molestias ipsam necessitatibus rem culpa laboriosam?</p>
-                <p class="p-inline">Lorem ipsum dolor <a href="" target="_blank">This is a button</a> <a href="" target="_blank">inside a paragraph</a> <a href="" target="_blank">Inline</a> Earum excepturi esse </p>
-            </section>
-            <!-- Display Property -->
+        <section id="link-list">
+            <!-- Link and List -->
+            <ul >
+                <h2>CSS Tricks</h2>
+                <li ><a href="test1.html" id="hover">hover</a></li>
+                <li><a href="test2.html" id="active">active</a></li>
+                <li><a href="test3.html" id="visited">visited</a></li>
+                <li><a href="test4.html" id="focus">focus</a></li>
+            </ul>
+        </section>
 
 
-
-            <section id="section-float">
-                <h3>Rise of Artificial Intelligence</h3>
-                <img src="./public/img/AI.jpg" alt="ai-image" class="float-image">
-                <p class="p-margin-left">The rapid rise of artificial intelligence (AI) in the IT world has sparked a transformative shift, reshaping the landscape of technology and innovation. AI's ability to process vast amounts of data, automate complex tasks, and mimic human cognitive functions is driving unprecedented advancements across industries, from healthcare and finance to manufacturing and customer service. As AI-powered algorithms evolve, businesses are leveraging its potential to enhance decision-making, optimize processes, and create personalized user experiences, while also raising discussions about ethics, privacy, and the future of work. This surge in AI integration signals a new era of technological progress, where intelligent machines are driving fundamental changes in how we approach challenges and opportunities in the digital age.</p>
-                <p class="p-margin-left">The rapid rise of artificial intelligence (AI) in the IT world has sparked a transformative shift, reshaping the landscape of technology and innovation. AI's ability to process vast amounts of data, automate complex tasks, and mimic human cognitive functions is driving unprecedented advancements across industries, from healthcare and finance to manufacturing and customer service. As AI-powered algorithms evolve, businesses are leveraging its potential to enhance decision-making, optimize processes, and create personalized user experiences, while also raising discussions about ethics, privacy, and the future of work. This surge in AI integration signals a new era of technological progress, where intelligent machines are driving fundamental changes in how we approach challenges and opportunities in the digital age.</p>
-                <p class="p-margin-left">The rapid rise of artificial intelligence (AI) in the IT world has sparked a transformative shift, reshaping the landscape of technology and innovation. AI's ability to process vast amounts of data, automate complex tasks, and mimic human cognitive functions is driving unprecedented advancements across industries, from healthcare and finance to manufacturing and customer service. As AI-powered algorithms evolve, businesses are leveraging its potential to enhance decision-making, optimize processes, and create personalized user experiences, while also raising discussions about ethics, privacy, and the future of work. This surge in AI integration signals a new era of technological progress, where intelligent machines are driving fundamental changes in how we approach challenges and opportunities in the digital age.</p>
-            </section>
-
-
-            <section id="column-layout">
-                <h2>Operating Systems</h2>
-                <p>Operating systems come in all shapes and sizes. Most of the operating systems in the world are Windows and
-                    Linux. Windows is a Microsoft production while Linux is open source with companies like Ubuntu, Red Hat,
-                    and others supporting it.
-                </p>
-
-                <p>Better to use some text about operating systems in this section here before moving on to
-                    application software in the next section. Many web servers run on Ubuntu while office workers often make
-                    use of Windows operation systems.
-                </p>
-
-                <h2>Application Software</h2>
-                <p>Application software is another type of software and it runs on top of the operating system. Microsoft
-                    Office is probably the most used application software in the business world. Adobe are the makers of
-                    application software for creative types.
-                </p>
-
-                <p>Those applications for creativity include things like Adobe Photoshop, Illustrator,
-                    Dreamweaver, and many others. Still other application software may be software such as customer
-                    relationship management software that companies may use to track the day to day business.
-                </p>
-            </section>
-            
-            
-        </main>
-    </body>
+        <section id="float-layout">
+            <!-- Float Layout -->
+            <div class="box left"></div>
+            <blockquote class="head"><q>Cascading Style Sheets (CSS) is a crucial technology in web development</q></blockquote>
+            <div class="clear">
+            <p class="float-paragraph">Cascading Style Sheets (CSS) is a crucial technology in web development, allowing designers to control the layout, appearance, and overall presentation of a website. By separating content from presentation, CSS enables developers to create visually engaging and user-friendly interfaces. With CSS, you can define styles for elements like fonts, colors, margins, and positioning, providing a powerful toolset to craft beautiful and responsive web pages.</p>
+            <p class="float-paragraph">The Evolution of CSS has been remarkable. Starting in the late 1990s, CSS underwent several iterations, each introducing new features and capabilities. CSS3, the latest major version, brought about a plethora of enhancements, including animations, transitions, and advanced layout techniques like flexbox and grid. This evolution continues, with ongoing discussions in the web development community about future specifications and features.</p>
+            <p class="float-paragraph">Responsive Design and CSS go hand in hand. With the increasing diversity of devices and screen sizes, creating websites that adapt to different environments is a necessity. CSS provides media queries, a powerful feature that allows developers to apply specific styles based on characteristics like screen width and resolution. This enables the creation of websites that look great on both desktop computers and mobile devices.</p>
+            <p class="float-paragraph">The Specificity Wars in CSS can be both fascinating and challenging for developers. Specificity determines which styles take precedence when multiple conflicting rules apply to the same element. Understanding how selectors, IDs, classes, and inline styles impact specificity is crucial for maintaining a consistent and predictable design. Well-structured and organized CSS can help mitigate specificity issues.</p>
+            <p class="float-paragraph">CSS Frameworks have become immensely popular in the development community. These pre-written sets of CSS and sometimes JavaScript files provide a foundation for building websites. Frameworks like Bootstrap, Foundation, and Bulma offer a range of pre-designed elements, grids, and components, saving developers time and effort. However, it's essential to balance the convenience of frameworks with the need for customization to create unique and tailored user experiences.</p>
+            </div>
+        </section>
 
 
+    </main> 
+</body>
 </html>
